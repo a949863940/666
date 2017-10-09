@@ -1,0 +1,53 @@
+.rel { position: relative; }
+
+.loginWrap { padding-top: 75px; margin-top: 20px; height: 502px; }
+
+.loginWrap .loginBord { position: absolute; left: 610px; top: 92px; width: 304px; box-shadow: 0 0 4px rgba(0, 0, 0, 0.075); padding: 0 20px 20px 20px; }
+
+.loginWrap .loginBord .Quick_login { padding-top: 15px; }
+
+.loginWrap .loginBord .Quick_login p { color: #066666; float: left; padding-top: 6px; }
+
+.loginWrap .loginBord .Quick_login .weixin { float: left; display: block; width: 24px; height: 24px; overflow: hidden; margin-right: 8px; background: url("../img/wx.png") no-repeat; }
+
+.loginWrap .loginBord .Quick_login .weibo { float: left; display: block; width: 24px; height: 24px; overflow: hidden; margin-right: 8px; background: url("../img/wb.png") no-repeat; }
+
+.loginWrap .inputGroup { position: relative; }
+
+.loginTit { line-height: 60px; color: #E31256; height: 60px; margin-bottom: 13px; }
+
+.loginTit .l { font-size: 20px; }
+
+.h582 { height: 582px; background: url("https://img01.miyabaobei.com//d1/p5/2017/08/17/3f/33/3f33e09dd524417344bdd8d99f3baf8c497219658.jpg") no-repeat left 112px; }
+
+.h582 .logolink { background: url("../img/log.png") no-repeat; }
+
+.h583 { background: url("../img/zhuce.jpg") no-repeat left 112px; }
+
+.clearfix .input { padding: 8px; width: 130px; }
+
+.input { box-shadow: 0 0 0 0; color: #000; font-size: 14px; height: auto; left: 0; line-height: 1.5; margin: 0; outline: 0 none; overflow: hidden; padding: 8px 8px 8px 38px; position: relative; top: 0; width: 256px; vertical-align: middle; }
+
+.inputGroup { margin-bottom: 16px; }
+
+.inputGroup .ceckboxmy { font-size: 14px; color: #a9a9a9; }
+
+.inputGroup .ceckboxmy a { color: #fa4b9b; }
+
+.inputGroup .ceckboxmy :hover { text-decoration: underline; }
+
+.phonecodeWrap { width: 303px; margin-bottom: 16px; }
+
+.phonecodeWrap .inputWrap { margin-right: 10px; }
+
+.phonecodeWrap .inputBun { background: linear-gradient(to bottom, #fcfcfc, #f2f2f2); border: 1px solid #d9d9d9; text-decoration: none; cursor: pointer; padding: 0 8px; display: inline-block; line-height: 37px; height: 37px; font-weight: 700; color: #666; text-align: center; width: 125px; }
+
+.footer { padding-top: 20px; text-align: center; padding: 30px; line-height: 22px; color: #ccc; }
+
+.h583 .logolink { background: url("../img/logo.png") no-repeat; }
+
+.registerBtn { margin-top: 15px; }
+
+.registerBtn .register { background-color: #F450A2; border-radius: 2px; display: inline-block; padding: 4px 24px 7px; width: 240px; height: 30px; line-height: 30px; font-size: 20px; font-weight: 700; text-align: center; color: #fff; }
+
+.registerBtn .register :hover { color: #fff; }

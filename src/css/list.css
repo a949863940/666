@@ -1,0 +1,23 @@
+header .header-nav .menus .dls { display: none; }
+
+header .header-nav .menus .tit:hover .dls { display: block; }
+
+nav { width: 1000px; margin: 0 auto; margin-bottom: 25px; }
+
+nav .znkCon { margin-top: 20px; position: relative; background-color: #fff; }
+
+nav .znkCon .brand_ti { width: 100%; height: 55px; background-color: #f9f9f9; background: url("../img/huawang.png") no-repeat; }
+
+nav .znkCon .znKlist { border: 1px solid #ff9ee2; padding-left: 6px; }
+
+nav .znkCon .znKlist .znkItem { position: relative; width: 232px; height: 364px; float: left; background-color: #fff; padding: 5px; margin-right: 6px; list-style: none; }
+
+nav .znkCon .znKlist .znkItem img { width: 232px; height: 232px; cursor: pointer; }
+
+nav .znkCon .znKlist .znkItem .znkPrice { padding: 6px 10px 0 10px; color: #ff69b4; }
+
+nav .znkCon .znKlist .znkItem .znkPrice .span1 { color: #ff69b4; font-size: 20px; }
+
+nav .znkCon .znKlist .znkItem .znkPrice .span2 { color: #b3b3b3; font-size: 12px; text-decoration: line-through; margin-left: 4px; }
+
+nav .znkCon .znKlist .znkItem .znkDes { padding: 6px 10px 0 10px; line-height: 20px; height: 40px; overflow: hidden; }

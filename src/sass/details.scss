@@ -1,0 +1,308 @@
+header .header-nav .navs .active {
+    background-color:#ff3893;
+}
+header .header-nav .menus{
+    .dls{
+    display:none;
+    }
+   .tit:hover .dls{
+    display:block;
+    }
+}
+main{
+    padding-bottom:20px;
+    .breadCrumbs {
+        height: 50px;
+        line-height: 50px;
+    }
+    .content{
+        .show {
+            background: #fff;
+            padding: 20px;
+            .rel {
+                position: relative;
+                width: 402px;
+                .big {
+                    height: 402px;
+                    border: 1px solid #f7f7f7;
+                    background: #fff;
+                    position: relative;
+                    img{
+                        width:400px;
+                        height:400px;
+                    }
+                }
+                .small {
+                    height: 100px;
+                    padding-top: 8px;
+                    img {
+                        padding: 2px;
+                        border: 1px solid #f4f4f4;
+                        float: left;
+                        margin-right: 8px;
+                        width: 68px;
+                        height: 68px;
+                    }
+                     .mr0{
+                            margin:0;
+                        }
+                }
+            }
+            .right-guoupon{
+                position: relative;
+                width: 600px;
+                padding-left: 50px;
+                .brand{
+                    margin-bottom: 10px;
+                    font-size: 18px !important;
+                    color: #222 !important;
+                    font-family: \5FAE\8F6F\96C5\9ED1;
+                    .baoyou{
+                            color: #ff3b93;
+                    }
+                }
+                .yahei{
+                    font-size:14px;
+                    line-height:20px;
+                    width:650px;
+                }
+                .pi_price_box {
+                    background: #fff9fd;
+                    padding: 10px 15px;
+                    position: relative;
+                    .tit_txt{
+                        font-size: 16px;
+                        color: #666;
+                        margin-right: 30px;
+                        font-family: \5FAE\8F6F\96C5\9ED1;
+                    }
+                    .pbox_price{
+                        display: inline-block;
+                        font-size:22px;
+                        color: #f43499;
+                        i{
+                            font-size: 20px;
+                        }
+                    }
+                    .pbox_market {
+                        padding: 0 20px 0 10px;
+                        color: gray;
+                        .mprice{
+                            font-size: 14px;
+                            font-family: \5FAE\8F6F\96C5\9ED1;
+                            color: #666;
+                        }
+                    }
+                    .jks{
+                        color: #999;
+                        cursor: pointer;
+                        width: 55px;
+                        display: inline-block;
+                        text-align:right;
+                    }
+                    .i_youhui {
+                        margin-top: 10px;
+                        .num_name {
+                            line-height: 28px;
+                            font-size: 16px;
+                            color: #666;
+                            margin-right: 30px;
+                            float:left;
+                            font-family: \5FAE\8F6F\96C5\9ED1;
+                        }
+                        .num_txt{
+                            display: inline-block;
+                            float:left;
+                            .markwarp{
+                                line-height: 20px;
+                                width: 350px;
+                                margin-top: 3px;
+                                margin-bottom: 12px;
+                                color:#ff3b93;
+                                i{
+                                    display: inline-block;
+                                    height: 21px;
+                                    padding: 0 5px;
+                                    text-align: center;
+                                    vertical-align: middle;
+                                    color: #fff;
+                                    margin-right: 8px;
+                                    background-color: #fc6c80;
+                                }
+                            }
+                        }
+                    }
+                }
+                .color{
+                    overflow: hidden;
+                    padding-top: 12px;
+                    vertical-align: middle;
+                    .color_name {
+                        float:left;
+                        font-size:16px;
+                        width:auto;
+                        text-align:left;
+                        color:gray;
+                        line-height:25px;
+                        padding-left: 15px;
+                        margin-right: 30px;
+                    }
+                    .color_list{
+                        float: left;
+                        width: 340px;
+                        .color_list_item {
+                            list-style:none;
+                            float: left;
+                            width: 38px;
+                            height: 47px;
+                            position: relative;
+                            margin: 0 15px 9px 0;
+                            .selected{
+                                display: inline-block;
+                                width: 43px;
+                                height: 43px;
+                                padding: 0;
+                                border: 2px solid #f43499;
+                                img{
+                                    width:42px;
+                                    height:43px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .datail_size {
+                    display: block;
+                    overflow: hidden;
+                    padding: 3px 0 15px;
+                    .tit_txt{
+                        float:left;
+                        font-size:16px;
+                        width:auto;
+                        text-align:left;
+                        color:gray;
+                        line-height:25px;
+                        padding-left: 15px;
+                        margin-right: 30px;
+                    }
+                    .datail_size_list{
+                        display: block;
+                        vertical-align: middle;
+                        width: 350px;
+                        float: left;
+                        margin-left: -3px;
+                        .size_text {
+                            float: left;
+                            height: 36px;
+                            line-height: 36px;
+                            margin: 2px 3px;
+                            list-style:none;
+                            text-align: center;
+                            .item_size_list{
+                                display: block;
+                                border: 1px solid #f10280;
+                                position: relative;
+                                height: 34px;
+                                line-height: 34px;
+                                z-index: 20;
+                                span{
+                                    border: 1px solid #f10280;
+                                    padding: 2px;
+                                    font-weight: 700;
+                                    height: 30px;
+                                    line-height: 30px;
+                                    vertical-align: middle;
+                                    overflow: hidden;
+                                    display:block;
+                                }
+                            }
+                        }
+                    }
+                }
+                .i_num {
+                    padding: 16px 1px;
+                    position: relative;
+                    height: 30px;
+                    margin: -1px 0;
+                    .num_name{
+                        float: left;
+                        font-size: 16px;
+                        width: auto;
+                        padding-left: 15px;
+                        text-align: left;
+                        color: gray;
+                        line-height: 25px;
+                    }
+                    .num_reduce{
+                        background-position: 0 -150px;
+                        float: left;
+                        width: 24px;
+                        height: 28px;
+                        text-align: center;
+                        line-height: 22px;
+                        font-size: 34px;
+                        cursor: pointer;
+                    }
+                    .num_input{
+                        text-align: center;
+                        line-height: 28px;
+                        width: 28px;
+                        background-color: #fff;
+                        float:left;
+                        height:28px;
+                    }
+                    .num_add{
+                        float:left;
+                        width: 24px;
+                        height: 28px;
+                        background-position: -50px -150px;
+                        cursor: pointer;
+                        text-align: center;
+                        line-height: 22px;
+                        font-size:24px;
+                    }
+                }
+                .button_f {
+                    height: 55px;
+                    width: 225px;
+                    font-size: 18px;
+                    float: left;
+                    padding: 2px 12px 5px 0;
+                    position: relative;
+                    .J_cartAdd_submit {
+                        background-color: #F450A2;
+                        border-radius: 2px;
+                        display: inline-block;
+                        width: 100%;
+                        height: 100%;
+                        padding: 0;
+                        line-height: 55px;
+                        font-size: 18px;
+                        font-weight: normal;
+                        color: #fff;
+                        text-align: center;
+                        white-space: nowrap;
+                        word-break: keep-all;
+                    }
+                    .attend_submit{
+                        font-size: 14px;
+                        font-family: \5FAE\8F6F\96C5\9ED1;
+                        color: #666;
+                        height: 55px;
+                        background: #fff;
+                        border: 1px solid #e2e2e2;
+                        font-weight: normal;
+                        display: block;
+                        width: 100px;
+                        text-align:center;
+                        span{
+                            position: absolute;
+                            bottom: 20px;
+                            left: 38px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

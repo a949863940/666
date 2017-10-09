@@ -1,0 +1,97 @@
+header .header-nav .navs .active { background-color: #ff3893; }
+
+header .header-nav .menus .dls { display: none; }
+
+header .header-nav .menus .tit:hover .dls { display: block; }
+
+main { padding-bottom: 20px; }
+
+main .breadCrumbs { height: 50px; line-height: 50px; }
+
+main .content .show { background: #fff; padding: 20px; }
+
+main .content .show .rel { position: relative; width: 402px; }
+
+main .content .show .rel .big { height: 402px; border: 1px solid #f7f7f7; background: #fff; position: relative; }
+
+main .content .show .rel .big img { width: 400px; height: 400px; }
+
+main .content .show .rel .small { height: 100px; padding-top: 8px; }
+
+main .content .show .rel .small img { padding: 2px; border: 1px solid #f4f4f4; float: left; margin-right: 8px; width: 68px; height: 68px; }
+
+main .content .show .rel .small .mr0 { margin: 0; }
+
+main .content .show .right-guoupon { position: relative; width: 600px; padding-left: 50px; }
+
+main .content .show .right-guoupon .brand { margin-bottom: 10px; font-size: 18px !important; color: #222 !important; font-family: \5FAE\8F6F\96C5\9ED1; }
+
+main .content .show .right-guoupon .brand .baoyou { color: #ff3b93; }
+
+main .content .show .right-guoupon .yahei { font-size: 14px; line-height: 20px; width: 650px; }
+
+main .content .show .right-guoupon .pi_price_box { background: #fff9fd; padding: 10px 15px; position: relative; }
+
+main .content .show .right-guoupon .pi_price_box .tit_txt { font-size: 16px; color: #666; margin-right: 30px; font-family: \5FAE\8F6F\96C5\9ED1; }
+
+main .content .show .right-guoupon .pi_price_box .pbox_price { display: inline-block; font-size: 22px; color: #f43499; }
+
+main .content .show .right-guoupon .pi_price_box .pbox_price i { font-size: 20px; }
+
+main .content .show .right-guoupon .pi_price_box .pbox_market { padding: 0 20px 0 10px; color: gray; }
+
+main .content .show .right-guoupon .pi_price_box .pbox_market .mprice { font-size: 14px; font-family: \5FAE\8F6F\96C5\9ED1; color: #666; }
+
+main .content .show .right-guoupon .pi_price_box .jks { color: #999; cursor: pointer; width: 55px; display: inline-block; text-align: right; }
+
+main .content .show .right-guoupon .pi_price_box .i_youhui { margin-top: 10px; }
+
+main .content .show .right-guoupon .pi_price_box .i_youhui .num_name { line-height: 28px; font-size: 16px; color: #666; margin-right: 30px; float: left; font-family: \5FAE\8F6F\96C5\9ED1; }
+
+main .content .show .right-guoupon .pi_price_box .i_youhui .num_txt { display: inline-block; float: left; }
+
+main .content .show .right-guoupon .pi_price_box .i_youhui .num_txt .markwarp { line-height: 20px; width: 350px; margin-top: 3px; margin-bottom: 12px; color: #ff3b93; }
+
+main .content .show .right-guoupon .pi_price_box .i_youhui .num_txt .markwarp i { display: inline-block; height: 21px; padding: 0 5px; text-align: center; vertical-align: middle; color: #fff; margin-right: 8px; background-color: #fc6c80; }
+
+main .content .show .right-guoupon .color { overflow: hidden; padding-top: 12px; vertical-align: middle; }
+
+main .content .show .right-guoupon .color .color_name { float: left; font-size: 16px; width: auto; text-align: left; color: gray; line-height: 25px; padding-left: 15px; margin-right: 30px; }
+
+main .content .show .right-guoupon .color .color_list { float: left; width: 340px; }
+
+main .content .show .right-guoupon .color .color_list .color_list_item { list-style: none; float: left; width: 38px; height: 47px; position: relative; margin: 0 15px 9px 0; }
+
+main .content .show .right-guoupon .color .color_list .color_list_item .selected { display: inline-block; width: 43px; height: 43px; padding: 0; border: 2px solid #f43499; }
+
+main .content .show .right-guoupon .color .color_list .color_list_item .selected img { width: 42px; height: 43px; }
+
+main .content .show .right-guoupon .datail_size { display: block; overflow: hidden; padding: 3px 0 15px; }
+
+main .content .show .right-guoupon .datail_size .tit_txt { float: left; font-size: 16px; width: auto; text-align: left; color: gray; line-height: 25px; padding-left: 15px; margin-right: 30px; }
+
+main .content .show .right-guoupon .datail_size .datail_size_list { display: block; vertical-align: middle; width: 350px; float: left; margin-left: -3px; }
+
+main .content .show .right-guoupon .datail_size .datail_size_list .size_text { float: left; height: 36px; line-height: 36px; margin: 2px 3px; list-style: none; text-align: center; }
+
+main .content .show .right-guoupon .datail_size .datail_size_list .size_text .item_size_list { display: block; border: 1px solid #f10280; position: relative; height: 34px; line-height: 34px; z-index: 20; }
+
+main .content .show .right-guoupon .datail_size .datail_size_list .size_text .item_size_list span { border: 1px solid #f10280; padding: 2px; font-weight: 700; height: 30px; line-height: 30px; vertical-align: middle; overflow: hidden; display: block; }
+
+main .content .show .right-guoupon .i_num { padding: 16px 1px; position: relative; height: 30px; margin: -1px 0; }
+
+main .content .show .right-guoupon .i_num .num_name { float: left; font-size: 16px; width: auto; padding-left: 15px; text-align: left; color: gray; line-height: 25px; }
+
+main .content .show .right-guoupon .i_num .num_reduce { background-position: 0 -150px; float: left; width: 24px; height: 28px; text-align: center; line-height: 22px; font-size: 34px; cursor: pointer; }
+
+main .content .show .right-guoupon .i_num .num_input { text-align: center; line-height: 28px; width: 28px; background-color: #fff; float: left; height: 28px; }
+
+main .content .show .right-guoupon .i_num .num_add { float: left; width: 24px; height: 28px; background-position: -50px -150px; cursor: pointer; text-align: center; line-height: 22px; font-size: 24px; }
+
+main .content .show .right-guoupon .button_f { height: 55px; width: 225px; font-size: 18px; float: left; padding: 2px 12px 5px 0; position: relative; }
+
+main .content .show .right-guoupon .button_f .J_cartAdd_submit { background-color: #F450A2; border-radius: 2px; display: inline-block; width: 100%; height: 100%; padding: 0; line-height: 55px; font-size: 18px; font-weight: normal; color: #fff; text-align: center; white-space: nowrap; word-break: keep-all; }
+
+main .content .show .right-guoupon .button_f .attend_submit { font-size: 14px; font-family: \5FAE\8F6F\96C5\9ED1; color: #666; height: 55px; background: #fff; border: 1px solid #e2e2e2; font-weight: normal; display: block; width: 100px; text-align: center; }
+
+main .content .show .right-guoupon .button_f .attend_submit span { position: absolute; bottom: 20px; left: 38px; }
